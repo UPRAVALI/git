@@ -1,0 +1,66 @@
+Exceptions ---exception is a event it occur during execution of a program.
+it distrupts normal flow of program
+
+in exceptions mainly three keywords are used they are
+
+try----this block is used to define code if any errors occur it jump into catch block
+catch ----- when try block  throw an error then catch block handle that error and execute
+finally  ---- error occur or not but finally block is always executed
+throw ----- throw keyword is used to throw an exception but it is used in method declaration to specify that exception
+throws ---- throws keyword is used to throw an exception but The "throws" keyword is followed by the class names of the exceptions that are thrown by the method.
+
+exceptions are divided into two types 
+
+1.checked exceptions
+2.unchecked exceptions
+
+checked exceptions ----- checked exceptions are checked at compile time 
+checked exceptions are handled by developer 
+in checked exceptions we must and should handled by try and catch block or otherwise we can using throw keyword to handle checked exceptions
+
+1.FileNotFoundException - thrown when a file cannot be found.
+
+2.IOException - thrown for various input/output related exceptions.
+
+3.SQLException - thrown for errors that occur when interacting with a database.
+
+4.ClassNotFoundException - thrown when a specified class cannot be found.
+
+5.InterruptedException - thrown when a thread is interrupted while waiting.
+
+6.NoSuchMethodException - thrown when a specified method cannot be found.
+
+7.NoSuchFieldException - thrown when a specified field cannot be found.
+
+8.IllegalAccessException - thrown when trying to access a restricted field or method.
+
+9.InstantiationException - thrown when trying to create an instance of an abstract class or an interface.
+
+10.CloneNotSupportedException - thrown when cloning an object that doesn't support cloning.
+
+
+2.unchecked exceptions ------ unchecked exceptions are checked at runtime.this  is also called runtime exceptions
+unchecked exceptions can not handle by developer 
+
+
+1.NullPointerException: thrown when an application tries to access an object through a null reference.
+
+2.ArrayIndexOutOfBoundsException: thrown when an application tries to access an array element that is out of bounds.
+
+3.ArithmeticException: thrown when an application performs an illegal arithmetic operation, such as dividing by zero.
+
+4.ClassCastException: thrown when an application tries to cast an object to a subclass of which it is not an instance.
+
+5.IllegalArgumentException: thrown when an application passes an illegal or inappropriate argument to a method.
+
+6.IllegalStateException: thrown when a method is invoked at an illegal or inappropriate time, such as when an object is in an incorrect state.
+
+7.NumberFormatException: thrown when an application tries to convert a string to a numeric format, but the string is not a valid number.
+
+8.IndexOutOfBoundsException: thrown when an application tries to access an index that is out of bounds, such as in a list or array.
+
+9.ConcurrentModificationException: thrown when an application tries to modify a collection while it is being iterated.
+
+10.SecurityException: thrown when an application tries to perform a security-sensitive operation, such as reading a file that it is not allowed to access.
+
+
